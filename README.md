@@ -11,3 +11,7 @@ Tokenization is a way of separating a piece of text into smaller units called to
 # What is Stemming ?
 Stemming is a technique which is used in NLP to extract the stem word from a branch of words, for example : pull, pulls, pulling, pulled has a stem word "pull".
 Some of the stemming algorithms are PorterStemmer,Lancaster Stemming Algorithm, RegexpStemmer ,Snowball stemming algorithm.
+
+
+# What is Lammatization ?
+
