@@ -13,5 +13,5 @@ Stemming is a technique which is used in NLP to extract the stem word from a bra
 Some of the stemming algorithms are PorterStemmer,Lancaster Stemming Algorithm, RegexpStemmer ,Snowball stemming algorithm.
 
 
-# What is Lammatization ?
+# What is Lemmatization ?
 
