@@ -15,3 +15,12 @@ Some of the stemming algorithms are PorterStemmer,Lancaster Stemming Algorithm, 
 
 # What is Lemmatization ?
 
+from nltk.stem import WordNetLemmatizer----> NLTK provides WordNetLemmatizer class for lemmatization.
+Lemmatization is used for stemming unlike PorterStemmer class , Lemmatization technique using WordNetlemmatizer class returns meaningful root words.
+
+# Difference between Stemming and lemmatization :
+
+The PorterStemmer class gives words which are not meaningful although it is also used for stemming, but WordNetLemmatizer class returns meaningful root words.
+So, we can conclude that Lemmatization technique always gives valid words unlike Stemming technique.
+
+
