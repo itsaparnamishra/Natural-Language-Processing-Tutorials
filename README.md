@@ -23,4 +23,16 @@ Lemmatization is used for stemming unlike PorterStemmer class , Lemmatization te
 The PorterStemmer class gives words which are not meaningful although it is also used for stemming, but WordNetLemmatizer class returns meaningful root words.
 So, we can conclude that Lemmatization technique always gives valid words unlike Stemming technique.
 
+# Bag of Words (BoW)
+
+Bag of Words is used to convert text data/corpus into meaningful numerical data in the form of an array so that it can be further used in building NLP model.
+It basically represents words into numbers so that the model can process it. This step is taken care by CountVectorizer method which is present in sklearn.feature_extraction.text (from sklearn.feature_extraction.text import CountVectorizer) , but before converting the text data into numerical data we need to clean the corpus , all the methods are shown in the jupyter notebook - NLP BagOfWords.
+
+Drawbacks of BoW :
+1) It only gives how many times a word occurred in a sentence and not its location or correlation with other words.
+2) It gives equal importance to all the words in the sentence.
+3) Other methods like TFIDF and word2Vec are used instead of BoW.
+
+
+
 
