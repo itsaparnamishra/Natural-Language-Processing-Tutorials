@@ -34,5 +34,15 @@ Drawbacks of BoW :
 3) Other methods like TFIDF and word2Vec are used instead of BoW.
 
 
+# TF-IDF : Term frequency Inverse Document Frequency 
+It is used to define how relevant a word in a corpus is to other words.
+Formula to find TF = [ (no. of repetition of word in the sentence) / (no. of words in the sentence) ]
+Forumula to find IDF = log [(no. of sentences) / (no. of sentences containing the words) ]
+TF-IDF = TF * IDF 
+
+This step can be implemented by Tfidfvectorizer method after cleaning the corpus.
+The NLP TF-IDF notebook contains all the steps explaining TF-IDF
+
+
 
 
