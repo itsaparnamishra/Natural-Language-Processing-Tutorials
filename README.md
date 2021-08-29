@@ -45,5 +45,10 @@ This step can be implemented by Tfidfvectorizer method after cleaning the corpus
 The NLP TF-IDF notebook contains all the steps explaining TF-IDF
 
 
+# SMS Spam Classifier 
+Used TF-IDF model, Naive Bayes Classifier from sklearn.naive_bayes, confusion matrix from sklearn.metrics for matching y_test and y_pred , lastly used accuracy score from sklearn.metrics to check the accuracy which came out to be 97%. The SMS Spam Classifier notebook includes all the steps.
+The data was extracted from https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection 
+
+
 
 
